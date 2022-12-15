@@ -1,0 +1,32 @@
+{
+  "name": "f8_blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/index.js",
+    "watch": "sass --watch src/resources/scss/ -o src/public/css/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/toilaluan/f8_blog.git"
+  },
+  "author": "luannd",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/toilaluan/f8_blog/issues"
+  },
+  "homepage": "https://github.com/toilaluan/f8_blog#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-handlebars": "^6.0.6",
+    "handlebars": "^4.7.7",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.20",
+    "sass": "^1.56.2"
+  }
+}
